@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>handlebars</artifactId>
-    <version>3.0.0-2-SNAPSHOT</version>
+    <version>3.0.3-SNAPSHOT</version>
     <name>Handlebars</name>
     <description>WebJar for Handlebars</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>3.0.0</upstreamVersion>
+        <upstreamVersion>3.0.3</upstreamVersion>
         <upstream.url>http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/${upstreamVersion}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
