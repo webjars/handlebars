@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>handlebars</artifactId>
-    <version>4.0.12-SNAPSHOT</version>
+    <version>4.0.11-1-SNAPSHOT</version>
     <name>Handlebars</name>
     <description>WebJar for Handlebars</description>
     <url>http://webjars.org</url>
 
     <licenses>
         <license>
-            <name>Copyright (C) 2011 by Yehuda Katz</name>
+            <name>MIT</name>
             <url>https://github.com/wycats/handlebars.js/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/${version.unsnapshot}</upstream.url>
+        <upstream.url>http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/${version.unrevise}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
