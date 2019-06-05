@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>handlebars</artifactId>
-    <version>4.0.11-2-SNAPSHOT</version>
+    <version>4.0.13-SNAPSHOT</version>
     <name>Handlebars</name>
     <description>WebJar for Handlebars</description>
     <url>http://webjars.org</url>
